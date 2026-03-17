@@ -25,8 +25,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 df=pd.read_csv('food_items (1).csv')
-print('Name: AKILA S')
-print('Reg.No: 212225220008')
+print('Name: suruthika')
+print('Reg.No: 212225040441')
 print('Dataset Overview')
 print(df.head())
 print("\nDataset Info:")
