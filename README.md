@@ -50,8 +50,8 @@ l2_model=LogisticRegression(random_state=123,penalty=penalty,multi_class=multi_c
 l2_model.fit(X_train,y_train)
 y_pred=l2_model.predict(X_test)
 
-print('Name: AKILA S')
-print('Reg. No: 212225220008')
+print('Name :SURUTHIKA V')
+print('Reg. No: 212225040441')
 print("\nModel Evaluation:")
 print("Accuracy:",accuracy_score(y_test,y_pred))
 
@@ -59,8 +59,8 @@ print("\nClassification Report:")
 print(classification_report(y_test,y_pred))
 conf_matrix=confusion_matrix(y_test,y_pred)
 print(conf_matrix)
-print("Name: AKILA S")
-print("Reg. No: 212225220008")
+print("Name: SURUTHIKA V")
+print("Reg. No: 212225040441")
 ```
 
 ## Output:
